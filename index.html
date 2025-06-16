@@ -4,13 +4,68 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BlokShots Virtual Tours</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #333;
+    }
+    .logo {
+      width: 200px;
+      height: auto;
+      margin-bottom: 1em;
+    }
+    .tour-list {
+      list-style: none;
+      padding: 0;
+    }
+    .tour-list li {
+      margin: 1em 0;
+    }
+    .tour-list a {
+      text-decoration: none;
+      color: #0066cc;
+      display: flex;
+      align-items: center;
+    }
+    .tour-list a:hover {
+      color: #003366;
+    }
+    .tour-list img {
+      width: 100px;
+      height: auto;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; padding: 2em;">
+<body>
+  <img src="https://blokshots.github.io/assets/blokshots-logo.png" alt="BlokShots Logo" class="logo" />
   <h1>Welcome to BlokShots Virtual Tours</h1>
   <p>Select a property tour below:</p>
-  <ul>
-    <li><a href="https://blokshots.github.io/7005-Madison-Merrillville-Indiana-46410/">7005 Madison - Merrillville, IN</a></li>
-    <!-- Add more links as you publish new tours -->
+  <ul class="tour-list">
+    <li>
+      <a href="https://blokshots.github.io/7005-Madison-Merrillville-Indiana-46410/">
+        <img src="https://blokshots.github.io/assets/7005-madison-thumb.jpg" alt="7005 Madison Tour Thumbnail" />
+        7005 Madison - Merrillville, IN
+      </a>
+    </li>
+    <li>
+      <a href="https://blokshots.github.io/1234-Oak-Lane-Chicago-IL/">
+        <img src="https://blokshots.github.io/assets/1234-oak-thumb.jpg" alt="1234 Oak Lane Tour Thumbnail" />
+        1234 Oak Lane - Chicago, IL
+      </a>
+    </li>
+    <li>
+      <a href="https://blokshots.github.io/5678-Pine-Street-Gary-IN/">
+        <img src="https://blokshots.github.io/assets/5678-pine-thumb.jpg" alt="5678 Pine Street Tour Thumbnail" />
+        5678 Pine Street - Gary, IN
+      </a>
+    </li>
   </ul>
 </body>
 </html>
